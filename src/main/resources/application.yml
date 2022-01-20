@@ -1,0 +1,12 @@
+server:
+  port:
+    8083
+
+spring:
+  cloud:
+    function:
+      definition: routeAsset
+    stream:
+      bindings:
+        routeAsset-in-0:
+          destination: enriched-asset          
