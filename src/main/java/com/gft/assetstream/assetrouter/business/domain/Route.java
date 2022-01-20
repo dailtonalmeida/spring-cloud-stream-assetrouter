@@ -10,7 +10,7 @@ package com.gft.assetstream.assetrouter.business.domain;
  * @author Dailton Santana de Almeida
  */
 public enum Route {
-    GENEVA(0, "out-to-geneva"), MAUI(1, "out-to-maui");
+    GENEVA(0, "geneva-asset"), MAUI(1, "maui-asset");
     
     private final int hint;
     private final String bindingName;
